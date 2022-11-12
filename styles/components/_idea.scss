@@ -1,0 +1,28 @@
+.idea {
+  flex-direction: column;
+  &__text-block {
+    margin-top: 20px;
+  }
+
+  &__title {
+    font-size: 36px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    &--bold {
+      font-style: italic;
+      font-weight: 700;
+    }
+  }
+
+  &__text {
+    max-width: 935px;
+    font-size: 24px;
+    line-height: 1.5;
+    letter-spacing: 0.5px;
+    margin-bottom: 10px;
+    &--bold {
+      font-weight: 700;
+      font-style: italic;
+    }
+  }
+}
